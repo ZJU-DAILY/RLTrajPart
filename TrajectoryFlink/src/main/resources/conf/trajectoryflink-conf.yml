@@ -1,0 +1,17 @@
+!!utils.ConfigType
+clusterMode: True
+kafkaBootStrapServers: ""
+inputStream1:
+  topicName: ""
+  dateFormat: "yyyy-MM-dd HH:mm:ss"
+  gridBBox: [115.7, 39.4,117.4, 41.6]
+  numGridCells: 100
+  delimiter: "  "
+  charset: "UTF-8"
+query:
+  option: 1
+  parallelism: 96
+  radius: 0.01
+
+window:
+  interval: 15
